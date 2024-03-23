@@ -1,0 +1,189 @@
+body{
+     margin: 0;
+     padding: 0;
+    font-family: "Farro", sans-serif;
+    background-color: black;   
+}
+.navbar{
+    display: flex;
+    
+    justify-content: space-between;
+    color: white;
+    margin-top: 3%;
+    position: sticky;
+    top: 0;
+  
+    
+    
+}
+.nav-title h1{
+    font-size: xx-large;
+    font-weight: bolder;
+   
+}
+.nav-title p{
+    font-size: 0.8em;
+}
+
+.nav-menu {
+    display: flex;
+    
+}
+.nav-menu p{
+   
+    padding: 10px;
+   
+}
+.nav-menu p:hover{
+    cursor: pointer;
+  
+}
+.intro{
+    margin-top: 7%;
+    text-align: center;
+    
+}
+.intro h2{
+    font-size: 3vw;
+}
+.intro p{
+    font-size: 1em;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-break: normal;
+    text-align: justify;
+    text-indent: 80px;
+    line-height: 3;
+}
+.btn{
+    border: 2px solid;
+    color: white;
+    font-size: 1em;
+    padding: 15px;
+    gap: 5px;
+}
+.story{
+    margin-top:10%;
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    
+}
+.story-image{
+    margin-top: 30%;
+    margin-right: 25%;
+    
+    
+   
+    
+}
+.story-content{
+    margin-left: 3%;
+    margin-top: 15%;
+    text-align: justify;
+    padding: 20px;
+   
+}
+.story-head{
+    font-size: 3vw;
+    text-decoration: underline red;
+    text-align: justify;
+}
+.why{
+    color: white;
+    height: 40vh;
+
+}
+.why-head{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 3vw;
+    text-decoration: underline red;
+
+}
+.why-para{
+    margin-left: 10%;
+    text-align: justify;
+    margin-top: 5%;
+    font-size: 2vw;
+    margin-bottom: 5%;
+
+}
+.service{
+    color: white;
+    margin-top: 10%;
+}
+.service-head{
+    margin-top: 5%;
+    font-size: 3vw;
+    text-align: center;
+}
+.service-para{
+    margin-top: 5%;
+    font-size: 1em;
+    text-align: center;
+
+}
+.service-type{
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+}
+.img-brand{
+    height: 25%;
+    width: 25%;
+    background-color: white;
+    border-radius: 25px;
+
+}
+.service-head1{
+    font-size: 1em;
+    justify-content: center;
+    margin-top: 3%;
+    padding: 5px;
+}
+.service-para1{
+    font-size: 0.6em;
+    margin-top: 3%;
+}
+.gap{
+    background-color: white;
+    height: 10vh;
+}
+.client-head{
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.carousel{
+    margin-top: 10%;
+    height: 70vh;
+}
+.footer{
+    color: white;
+    height: 10vh;
+    margin-bottom: 2%;
+
+    
+}
+.footer-head{
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 5px;
+
+}
+.foot-copy{
+    font-size: 0.7em;
+}
+.foot-icon{
+    text-align: end;
+   margin-right: 2%;
+
+}
+.foot-icon i{
+    padding: 5px;
+}
